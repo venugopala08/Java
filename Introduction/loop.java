@@ -94,5 +94,28 @@ public class loop {
             System.out.println("Hi" + f);     // we have to increment the value in side the curly braces otherwise it becomes infinite . 
             f++;                               //initialize can be done outside the loop also.
         }
+
+
+        // Enhanced for loop example
+        System.out.println("\nEnhanced For Loop Example:");
+
+        int arr[] = {1,2,3,4,5};  // Array declaration and initialization
+
+        for (int n : arr){              // Enhanced for loop to iterate through the array
+            // n will take each value from the array arr in each iteration
+            System.out.println("Number " + n);
+            
+        }
+
+        int array[] = new int[4];
+        array[0] = 6;
+        array[1] = 3;
+        array[2] = 9;
+        array[3] = 5;
+
+        for (int num : array){          // Enhanced for loop to iterate through the array
+            // num will take each value from the array in each iteration
+            System.out.println("Array value: " + num);
+        }
     }
 }
