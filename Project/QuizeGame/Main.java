@@ -1,0 +1,8 @@
+package Project.QuizeGame;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        
+    }
+}
