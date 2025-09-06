@@ -4,7 +4,7 @@
 class Calculate {
 
     public int calculator(int a , int b){
-        System.out.println("Calculator metho eith 2 parameter is called ");    
+        System.out.println("Calculator method with 2 parameter is called ");    
         return a + b;
     }    
 
